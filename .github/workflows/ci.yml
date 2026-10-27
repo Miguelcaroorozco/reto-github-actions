@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Validar sintaxis de Python
+        run: python -m py_compile calculadora.py
+
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
