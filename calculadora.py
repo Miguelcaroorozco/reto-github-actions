@@ -1,5 +1,5 @@
 def promedio(notas):
-    return sum(notas) / len(notas)
+    return sum(notas) / len(notas) + 1
 
 
 def estado(nota):
