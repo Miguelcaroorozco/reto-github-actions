@@ -4,3 +4,4 @@ def promedio(notas):
 
 def estado(nota):
     return "Aprobado"
+:
